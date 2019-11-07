@@ -1,0 +1,197 @@
+		
+		p{font-size: 16px;margin: 10px;line-height: 31px;text-indent: 2em;text-align: justify;color:#353535}
+		
+		.slider{width: 980px;height: 550px;position: relative;overflow: hidden;background: none repeat scroll 0% 0% #FFF;text-align: center; border-bottom:1px solid red;margin:0 auto;}	
+		.slider .bd{ width:980px; position:absolute; left:50%; margin-left:-490px  }	
+		.slider .bd li{ width:980px;  overflow:hidden; }	
+		.slider .bd li img{ display:block; width:980px; height:550px;    }	
+		.slider .tempWrap{ overflow:visible !important; }	
+		.slider .tempWrap ul{  margin-left:-980px !important;   }	
+		.slider .hd{ position:absolute; width:100%; left:0;  z-index:1; height:8px; bottom:20px; text-align:center; }	
+		.slider .hd li{ display:inline-block; zoom:1; width:18px; height:18px; line-height:99px; overflow:hidden; background:url("../images/focusImg.png") 0 -18px no-repeat; 	margin:0 5px; cursor:pointer; filter:alpha(opacity=60);opacity:0.6;  }	
+		.slider .hd li.on{ background-position:0 0; filter:alpha(opacity=100);opacity:1;  }	
+		.slider .pnBtn{  position:absolute; z-index:1; top:0; width:39px;  height:60px; cursor:pointer;   }	
+		.slider .pnBtn1{ position:absolute; z-index:1; top:0; right:0;width:39px;  height:550px; cursor:pointer; }
+		
+		.slider .pnBtn .arrow{ position:absolute; top: -70px; z-index:2; width:39px; height:550px; transition: all 0.2s ease-out 0s; }	
+		.slider .pnBtn1 .arrow{ position:absolute; top:-70px; z-index:2; width:39px; height:550px;  }	
+		.slider .pnBtn .arrow:hover{ filter:alpha(opacity=60);opacity:1; }	
+		.slider .prev .arrow{right:0; background:url("../images/slide-btn.png") 0px center no-repeat;  filter:alpha(opacity=60);opacity:0.6;  }
+		.slider .next .arrow{left:0; background:url("../images/slide-btn.png") -41px center no-repeat; filter:alpha(opacity=60);opacity:0.6;  }
+		.burder_content{ position:absolute; bottom:0; right:0px; width:300px;height:520px; padding-left:20px; padding-top:30px; background:rgba(255,255,255,0.3); cursor:pointer;}
+		.burder_content .burder_content_type{ float:left; font-size:14px; line-height:23px; text-align:center; height:23px; width:105px; font-weight:bold; color:#fff; background-color:#FF7800;}
+		.burder_content .burder_content_title{ float:left; font-size:22px; line-height:35px; color:#fff; width:270px; font-weight:bold; margin-top:10px; cursor:pointer; text-align: left;margin-left: 12px;}
+		.burder_content .burder_content_title:hover{ color:#ff5c00;}
+		.burder_content .burder_content_content{ float:left; line-height:25px; color:#fff; font-size:14px; width:247px; margin-top:10px;}
+		.burder_content .burder_content_lookall{ float:right; color:#ff5c00; font-weight:bold; margin-top:10px;_width:120px;margin-right:42px;}
+		.burder_content .burder_content_lookall:hover{ text-decoration:underline; color:#ff5c00;}		
+		
+		
+		/*导航栏与底下内容的高度*/
+		.banner_top{ margin:0 auto;height:2px;}		
+		.caret{display: inline-block;width: 0px;height: 0px;margin-left: 2px;vertical-align: middle;border-top: 4px solid;border-right: 4px solid transparent;border-left: 4px solid transparent;}
+		.right{float:right;}
+		.left{float:left;}
+		
+		/*导航条*/
+		.container{padding-right: 15px;padding-left: 15px;margin-right: auto;margin-left: auto; width: 1200px;}
+		.container_loc{float: right;margin-right: 40px;margin-top: 20px;margin-bottom: 10px}
+		
+		/* 导航栏logo河南农村队列研究字体样式 */
+		.logo{background: /*url("../images/logo.jpg")*/ no-repeat scroll 0px 0px transparent;padding-top: 16px;float: left;height: 20px;padding-left: 5px;margin-left: 70px;font-size: 22px;
+                font-weight: bold;color:#333;}
+        
+        /*position: fixed  导航栏是否固定*/        		
+		.dlyj_head{ repeat;border-color: #DADADA;position: ;top:0px;right: 0px;left: 0px;z-index: 30;height:50px; width:100%; }
+		
+		.clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden;}
+		.nav{ padding:0 20px; height:34px; line-height:34px;  position:relative; z-index:9999;  }
+		.nav a{ color:#000;  }
+		.nav .nLi{ float:left;  position:relative; display:inline;  }
+		.nav .nLi h3{ float:left; width:92px;text-align:center; }
+		/* 导航栏位置样式 */
+		.nav .nLi h3 a{ display:block;padding: 0px 10px; font-size:15px;}
+		
+		/* 导航栏下拉列表背景颜色 */
+		.nav .sub{ display:none; width:100px; left:0; top:50px;  position:absolute; background:#EBEBEB;  line-height:26px; padding:5px 0;  }
+		.nav .sub li{ zoom:1; float:left;width:100px; text-align:center;}
+		.nav .sub a{ display:block; padding:0 19px; }
+		.nav .sub a:hover{ background:#6d6d6d; color:#fff;  }
+		.nav .on h3 a{ font-weight:bold; color: #3E98C5;border-bottom: 3px solid #3E98C5;background-color: transparent;font-weight: bolder; text-shadow: 1px 1px 1px #FFF;  }
+		.clear{clear:both;}
+		
+		.index_news{width:980px;margin:2px auto;}
+		.slideTxtBox{ width:979px; border:1px solid #ddd; text-align:left;  margin-top:7px; }
+		.slideTxtBox .hd{ height:30px; line-height:30px; background:#f4f4f4; padding:0 10px 0 20px;   border-bottom:1px solid #ddd;  position:relative; }
+		.slideTxtBox .hd ul{ float:left;  position:absolute; left:20px; top:-1px; height:32px;   }
+		.slideTxtBox .hd ul li{ float:left; padding:0 15px; cursor:pointer; font-size: 16px; font-weight: bolder;}
+		.slideTxtBox .hd ul li.on{ height:30px;  background:#fff; border:1px solid #ddd; border-bottom:2px solid #fff; }
+		
+		.slideTxtBox .bd { padding: 20px 20px 20px 44px; background: #FFF;}
+		.slideTxtBox .bd ul{zoom:1; } 
+		.slideTxtBox .bd li{ height:24px; line-height:24px; padding: 5px;font-size: 15px;}
+		.slideTxtBox .bd li .date{ float:right; color:#999; font-size:11px; }
+		.slideTxtBox .bd li a:hover{text-decoration: underline;}
+		/*当前位置*/
+		.loc{width:980px; margin:0 auto; border:1px solid #ddd;overflow:hidden; border-bottom:0;height:30px;}
+		.loc .locname{height: 31px;background: #EEF3F8;line-height: 30px;}
+		
+		.common_table{width:980px; margin:0 auto; border:1px solid #ddd;overflow:hidden; background:#EEF3F8;}		
+		/*简介左侧栏*/
+		/*.common_table .hd{width:125px;float:left; line-height:30px; background:#e9e9e9;border-right:1px solid #fff;zoom:1; min-height: 730px; }*/
+		.common_table .hd{width:134px;float:left; line-height:30px; background:#DEE3E7;border-right:1px solid #fff;zoom:1; min-height: 780px; }
+		
+		.common_table .hd ul{margin-top: 30px; }
+		.common_table .hd  ul  li em{background:url("") 41px 125px;display: block;width: 9px;height: 30px; float:right;}
+		.common_table .hd  ul  li{  cursor:pointer; text-align: center; height:30px;color:#353535;}
+		.common_table .hd ul li.on{ height:35px;  background:#fff; border:1px solid #ddd; border-top: 2px solid ##D1D7DC;border-right:2px solid #fff; border-left:none;  position:relative; color:#FF7800; }
+		.common_table .hd ul li.on em{background-position:0 125px;}
+		.common_table .tempWrap{min-height:700px;}
+		
+		/*内容栏宽度*/
+		.common_table .bd{width:840px !important;float:right;zoom:1;background: #fff; }
+		
+		.common_table .bd ul{ padding:15px;  min-height:770px; }
+		.common_table .bd  ul li{ text-align:center; }
+		.common_table .bd  ul li h1{margin-top: 22px;margin-bottom:17px;}
+		.common_table .bd ul li img{margin-right:15px;}
+		.common_table .bd .attachment li{text-align:left;padding: 4px 12px;font-size: 14px;}
+		.common_table .bd .attachment li a{font-size:16px;}
+		.common_table .bd .xwcc{padding:26px;}
+		.common_table .bd .xwcc li{padding: 10px 6px;border-bottom: 0.5px dotted #EBEBEB;text-align: left;font-size: 14px;}
+		.common_table .bd .xwcc .date{float:right;}
+		.inBox{ padding:15px 15px 0 15px; height:120%; }
+		.inBox .inHd{ height:39px; line-height:24px; border-bottom:1px solid #ccc; padding:0 10px;}
+		.inBox .inHd ul{ overflow:hidden; zoom:1; }
+		.inBox .inHd ul li{ height:24px;text-align:center; float:left; cursor:pointer;  font-size: 16px;margin-right: 10px; color:#666666;}
+		.inBox .inHd ul li.on{ color:#3E98C5;padding: 0 15px;border-bottom:2px solid #3E98C5;  }
+		.inBox .inBd ul{ padding:15px;  zoom:1; overflow:hidden;   border: 1px solid #ebebeb;height:auto;}
+		.inBox .inBd ul li p{margin:0;}
+		.inBox .inBd ul li{ zoom:1;  }
+		.lxwm{width:980px; margin:0 auto;border:1px solid #EBEBEB; text-align:center;padding: 26px 0;background:#fff;overflow: hidden;}
+		.lxwm img{width:500px;height:250px;}
+		.dsj{width:980px; margin:0 auto;border:1px solid #EBEBEB;}
+		.ueditor_baidumap{float:left;margin:10px;}
+		.footer{}
+		.footer_bg{width:980px; margin:0 auto;border-top:2px solid #EBEBEB;text-align:center; padding:15px 0;}
+		.news_body{width:980px; margin:0 auto;border:1px solid #EBEBEB;text-align:center; padding: 25px 0px;background: #fff;overflow: hidden;min-height:668px;}
+		.news_body h1{margin-bottom:20px;}
+		.news_body .news_cc{margin: 20px 75px;}
+		.attachment h1{ text-align:center;margin-top:20px;margin-bottom:20px;}
+		.attachment li{list-style-type: decimal;}
+		.rcmap{float:left;margin: 22px 28px 0 28px;position:relative;}
+		.maptitle{position: absolute;top: 28px;left: 115px;}
+		.rcCity{position: absolute;bottom: -14px;left: 0px;background: #fff;}
+		
+		.rcCity ul{background:#fff;}
+		.rcCity ul li{text-align:center;width: 68px;padding: 3px;}
+		.rcRural{position: absolute;bottom: -14px;left: 73px;}
+		.rcRural h4{border-bottom: 2px solid #3E98C5;text-align:center;}
+		.rcRural ul{background:#fff;}
+		.rcRural ul li{text-align:center;width: 48px;padding: 3px;}
+		
+		#PageSelectorBar {
+	height: 25px;
+}
+
+#PageSelectorSelectorArea {
+	float: right;
+	margin-right: 15px;
+	line-height: 18px;
+	margin-top: 5px;
+}
+
+#PageSelectorMemo {
+	float: left;
+	padding-top: 5px;
+	line-height: 18px;
+	margin-left: 15px;
+}
+
+.PageSelectorSelected {
+	color: #FF0000;
+}
+
+#PageSelectorHead {
+	padding-left: 5px;
+	padding-right: 5px;
+	width: 20px;
+	height: 20px;
+	background: url("../images/pageSelector/pageSelector_bg.gif") no-repeat;
+
+}
+
+.PageSelectorNum {
+	background: url("../images/pageSelector/pageSelector_bg.gif") no-repeat;
+	background-position: 0 4px;
+	padding: 5px;
+	width: 20px;
+	height: 20px;
+	text-align: center;
+        cursor:pointer
+}
+
+
+#PageSelectorBar A:link {
+	COLOR: #005791;
+	TEXT-DECORATION: none
+}
+
+#PageSelectorBar A:visited {
+	COLOR: #005791;
+	TEXT-DECORATION: none
+}
+
+#PageSelectorBar A:active {
+	COLOR: #005791;
+	TEXT-DECORATION: none
+}
+
+#PageSelectorBar A:hover {
+	COLOR: #005791;
+	TEXT-DECORATION: none;
+}
+.PageSel{height:20px;width:40px;}
+.contentb{padding: 0 30px;}
+		
+		

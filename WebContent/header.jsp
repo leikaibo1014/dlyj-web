@@ -1,0 +1,100 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<header>
+    
+   <div class="dlyj_head" style="background-color: rgb(209, 223, 255);">
+    <div class="container">
+        <div class="logo" >
+        	<!--<img src="images/logo.jpg" style="height: 25px;width: 25px;"/>-->
+        	河南农村队列研究
+        </div>
+        <ul id="nav" class="nav container_loc" style="height: 40px; margin-top: 4px;">          
+            <li  class="nLi on">
+                <h3><a href="${pageContext.request.contextPath }" >首页</a></h3>                          
+             </li>
+            
+            <li  class="nLi on">
+                <h3><a href="#">队列概况<b class="caret"></b></a></h3>
+				        <ul class="sub">
+                            <li><a href="${pageContext.request.contextPath }/jsp/queueintroduction/queueintroduction.jsp" >队列简介</a></li>
+                            <li><a href="leaderteam.jsp" >领导队伍</a></li>
+                            <li><a href="teamStructure.jsp" >组织结构</a></li>
+                    	</ul>
+             </li>
+            
+                <li  class="nLi on">
+                    <h3><a href="#">专题工作<b class="caret"></b></a></h3>                                                        
+                        <ul class="sub">
+                                <li><a href="${pageContext.request.contextPath }/jsp/specialWork/baselineSurvey.jsp" >基线调查</a></li>
+                                <li><a href="caseAudit.jsp" >病例审核</a></li>
+                                <li><a href="#" >随访监测</a></li>
+                                <li><a href="#" >质量控制</a></li>
+                                <li><a href="#" >样本管理</a></li>
+                                
+                        </ul>
+                </li>
+            
+                <li  class="nLi on">
+                    <h3><a href="#">科学研究<b class="caret"></b></a></h3>
+                        <ul class="sub">
+                                <li><a href="#" >发表文章</a></li>
+                                <li><a href="#" >申报专利</a></li>
+                                <li><a href="#" >科技成果</a></li>
+                                <li><a href="#" >著作</a></li>
+                                
+                        </ul>
+                 </li>
+                 
+                 <li  class="nLi on">
+                    <h3><a href="#">团队介绍<b class="caret"></b></a></h3>
+                        <ul class="sub">
+                                <li><a href="${pageContext.request.contextPath }/teacherProduce" >教师</a></li>
+                                <li><a href="#" >博士生</a></li>
+                                <li><a href="#" >研究生</a></li>                                
+                        </ul>
+                 </li>
+            
+                <li  class="nLi on">
+                    <h3><a href="#">合作交流<b class="caret"></b></a></h3>
+                      <ul class="sub">
+                       			<li><a href="#" >交流培训</a></li>                         
+                                <li><a href="#" >合作申请</a></li>                                           
+                        </ul>
+                </li>
+            
+            	<li  class="nLi on">
+                    <h3><a href="#">现场掠影<b class="caret"></b></a></h3>
+                      <ul class="sub">
+                       			<li><a href="#" >现场掠影</a></li>                                                              
+                        </ul>
+                </li>
+            	
+            	 <li  class="nLi on" >
+                    <h3><a href="#">联系我们<b class="caret"></b></a></h3>
+                      <ul class="sub">
+                       			<li><a href="#" >联系方式</a></li>                         
+                                <li><a href="#" >招贤纳士</a></li>                                                    
+                        </ul>
+                </li>
+              
+              <li  class="nLi on" >
+                    <h3><a href="#">English</a></h3>
+                     
+                </li>
+            
+        </ul>
+
+    </div>
+</div>
+
+
+<script type="text/javascript">
+    jQuery(".nav").slide({type: "menu", titCell: ".nLi", targetCell: ".sub", delayTime: 300, triggerTime: 0, returnDefault: true});
+
+</script>
+
+
+
+<!--以上菜单-->
+    
+    
+</header>

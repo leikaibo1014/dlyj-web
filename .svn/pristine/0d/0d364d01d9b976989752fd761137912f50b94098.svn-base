@@ -1,0 +1,342 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+		<meta charset="UTF-8">
+		<title>新闻</title>
+	<meta http-equiv="pragma" content="no-cache">
+	<meta http-equiv="cache-control" content="no-cache">
+	<meta http-equiv="expires" content="0">    
+	<meta http-equiv="keywords" content="keyword1,keyword2,keyword3">
+	<meta http-equiv="description" content="This is my page">
+	<!--
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	-->	
+	<meta charset="utf-8">
+		<!--声明文档兼容模式，表示使用IE浏览器的最新模式-->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<!--设置视口的宽度(值为设备的理想宽度)，页面初始缩放值<理想宽度/可见宽度>-->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+
+		<!-- 引入Bootstrap核心样式文件 -->
+	
+		<!--	<link href="css/bootstrap.min.css" rel="stylesheet">-->
+					<link href="../css/bootstrap.css" rel="stylesheet">
+		<!-- 引入jQuery核心js文件 -->
+		<script src="../js/jquery-1.11.3.min.js"></script>
+		<!-- 引入BootStrap核心js文件 -->
+		<script src="../js/bootstrap.js"></script>
+		
+		
+		<meta name="Author" content="chenge" />
+		<link rel="shortcut icon" href="/CKBweb/style/images/CKBlogo.ico" />
+		<link href="../css/common.css" tppabs="../css/common.css" rel="stylesheet" type="text/css" />
+		<link href="../css/index.css" tppabs="../css/index.css" rel="stylesheet" type="text/css" />
+		<script src="../js/jquery-1.11.3.min.js" ></script>
+		<script src="../js/jquery.SuperSlide.2.1.1.js" ></script>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+		
+	</head>
+	
+	
+<body>
+       
+<div class="container" style="height: 20px;width: 1000px;background: ;">
+				<table>
+				<tr height="20px" bgcolor="black">
+				<div class="col-lg-6">
+					<font color="white">欢迎来到郑州大学河南农村队列研究</font>
+				</div>
+				<div class="col-lg-3" >
+					
+				</div>
+				
+				<div class="col-lg-3" id="time1" style="color:white;">
+					
+				</div>
+			</tr>
+			</table>
+</div> 
+	<script type="text/javascript">
+				 setInterval("document.getElementById('time1').innerHTML = new Date().toLocaleString();", 1000);
+	</script>
+
+
+<!--logo部分-->
+			<div class="row" style="background-color: #66AFE9;height: 100px;">
+				<div class="col-lg-3">
+					
+				</div>
+				
+				<div class="col-lg-2" style="padding-top: 2px; ">
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<!-- <img src="" style="height: 80px;width: 200px;"/> -->
+					<h1>这里放Logo</h1>
+				</div>
+				
+				<div class="col-lg-4" style="padding-top: 20px; ">
+					<h1>河南农村队列研究</h1>
+				</div>
+				
+				<div class="col-lg-3" style="padding-top: 30px;">
+					
+				</div>
+			</div>
+
+
+  
+      
+      
+
+<div class="ckb_head" style="background-color: rgb(209, 229, 255);">
+    <div class="container">
+        <div class="logo" >
+        	<!--<img src="images/logo.jpg" style="height: 25px;width: 25px;"/>-->
+        	河南农村队列研究
+        </div>
+        <ul id="nav" class="nav container_loc">           
+            <li  class="nLi on">
+                <h3><a href="index.html" >首页</a></h3>                          
+             </li>
+            
+            <li  class="nLi on">
+                <h3><a href="#">队列概况<b class="caret"></b></a></h3>
+				        <ul class="sub">
+                            <li><a href="" >队列简介</a></li>
+                            <li><a href="" >领导队伍</a></li>
+                            <li><a href="" ">组织结构</a></li>
+                    	</ul>
+             </li>
+            
+                <li  class="nLi on">
+                    <h3><a href="#">专题工作<b class="caret"></b></a></h3>                                                        
+                        <ul class="sub">
+                                <li><a href="" >基线调查</a></li>
+                                <li><a href="" >病例审核</a></li>
+                                <li><a href="" >随访监测</a></li>
+                                <li><a href="" >质量控制</a></li>
+                                <li><a href="" >样本管理</a></li>
+                                
+                        </ul>
+                </li>
+            
+                <li  class="nLi on">
+                    <h3><a href="#">科学研究<b class="caret"></b></a></h3>
+                        <ul class="sub">
+                                <li><a href="" >发表文章</a></li>
+                                <li><a href="" >申报专利</a></li>
+                                <li><a href="" >科技成果</a></li>
+                                <li><a href="" >著作</a></li>
+                                
+                        </ul>
+                 </li>
+                 
+                 <li  class="nLi on">
+                    <h3><a href="#">团队介绍<b class="caret"></b></a></h3>
+                        <ul class="sub">
+                                <li><a href="" >教师</a></li>
+                                <li><a href="" >博士生</a></li>
+                                <li><a href="" >研究生</a></li>                                
+                        </ul>
+                 </li>
+            
+                <li  class="nLi on">
+                    <h3><a href="#">合作交流<b class="caret"></b></a></h3>
+                      <ul class="sub">
+                       			<li><a href="" >交流培训</a></li>                         
+                                <li><a href="" >合作申请</a></li>                                           
+                        </ul>
+                </li>
+            
+            	<li  class="nLi on">
+                    <h3><a href="#">现场掠影<b class="caret"></b></a></h3>
+                      <ul class="sub">
+                       			<li><a href="" >现场掠影</a></li>                                                              
+                        </ul>
+                </li>
+            	
+            	 <li  class="nLi on" >
+                    <h3><a href="#">联系我们<b class="caret"></b></a></h3>
+                      <ul class="sub">
+                       			<li><a href="" >联系方式</a></li>                         
+                                <li><a href="" >招贤纳士</a></li>                                                    
+                        </ul>
+                </li>
+              
+              <li  class="nLi on" >
+                    <h3><a href="#">English</a></h3>
+                     
+                </li>
+            
+        </ul>
+
+    </div>
+</div>
+
+
+
+<script type="text/javascript">
+    jQuery(".nav").slide({type: "menu", titCell: ".nLi", targetCell: ".sub", delayTime: 300, triggerTime: 0, returnDefault: true});
+
+</script>
+
+
+
+<!--以上菜单-->
+
+
+
+
+<div class="banner_top"></div>
+<div class="clear"></div>
+        <div class="loc"><div class="locname"> &nbsp;&nbsp;当前位置：<a href="" tppabs="">首页</a>&nbsp;&gt;&nbsp;<a href="news_newslist.htm" tppabs="">新闻动态</a>&nbsp;&gt;&nbsp;项目新闻</div></div>
+        <div class="common_table">
+            <div class="hd">
+                <ul>
+                    <li class="on">全部新闻<em></em></li>
+
+                </ul>
+            </div>
+            <div class="bd">
+                <ul class="xwcc">
+                    <form id="news_newslist" name="news_newslist" action=""  method="post">
+                        
+                            <li>
+                            	<span class="date">2018-01-12</span>
+                            	<a href=""  target="_blank"><img src="../images/inc2.jpg" />北京一饭店为尽早打烊，冬天开冷风轰客</a>
+                            </li>
+                                
+                                
+                            <li>
+                            	<span class="date">2018-01-12</span>
+                            	<a href="news_1.html"  target="_blank"><img src="../images/inc2.jpg" />郑州一男子高级皮带解不开，两天不敢吃东西</a>
+                            </li>
+                                
+                            <li>
+                            	<span class="date">2018-01-12</span>
+                            	<a href=""  target="_blank"><img src="../images/inc2.jpg"  />郑州一男子高级皮带解不开，两天不敢吃东西</a>
+                            </li>
+                                
+                            <li>
+                            	<span class="date">2018-01-12</span>
+                            	<a href=""  target="_blank"><img src="../images/inc2.jpg"  />哥伦比亚一城市通过一项法案，传八卦罚款6000美圆</a>
+                            </li>
+                                
+                            <li><span class="date">2018-01-12</span><a href=""  target="_blank"><img src="../images/inc2.jpg"  />哥伦比亚一城市通过一项法案，传八卦罚款6000美圆</a></li>
+                                
+                            <li><span class="date">2018-01-12</span><a href=""  target="_blank"><img src="../images/inc2.jpg"  />哥伦比亚一城市通过一项法案，传八卦罚款6000美圆</a></li>
+                                
+                            <li><span class="date">2018-01-12</span><a href=""  target="_blank"><img src="../images/inc2.jpg"  />哥伦比亚一城市通过一项法案，传八卦罚款6000美圆</a></li>
+                                
+                            <li><span class="date">2018-01-12</span><a href=""  target="_blank"><img src="../images/inc2.jpg"  />哥伦比亚一城市通过一项法案，传八卦罚款6000美圆</a></li>
+                                
+                            <li><span class="date">2018-01-12</span><a href=""  target="_blank"><img src="../images/inc2.jpg"  />哥伦比亚一城市通过一项法案，传八卦罚款6000美圆</a></li>
+                                
+                            <li><span class="date">2018-01-12</span><a href=""  target="_blank"><img src="../images/inc2.jpg"  />哥伦比亚一城市通过一项法案，传八卦罚款6000美圆</a></li>
+                                
+                            <li><span class="date">2018-01-12</span><a href=""  target="_blank"><img src="../images/inc2.jpg"  />哥伦比亚一城市通过一项法案，传八卦罚款6000美圆</a></li>
+                                
+                                
+                            <li><span class="date">2018-01-12</span><a href=""  target="_blank"><img src="../images/inc2.jpg"  />墨西哥一电视剧连续35年播出，现在已到1250集</a></li>
+                                
+                            <li><span class="date">2018-01-12</span><a href=""  target="_blank"><img src="../images/inc2.jpg"  />墨西哥一电视剧连续35年播出，现在已到1250集</a></li>
+                                
+                            </form>
+   
+					<div id=PageSelectorBar>
+						    <div id=PageSelectorMemo>
+						        页次：1/1页 &nbsp;
+						        每页显示：10条 &nbsp;
+						    </div>
+					    <div id=PageSelectorSelectorArea>
+					
+					        <a href="javascript: gotoPage(1)" title="首页" style="cursor: hand;">
+					            <img src="../images/pageselect/firstPage.png" />
+					        </a>
+					   
+					                <span class="PageSelectorSelected">1</span>
+					             
+					                <span class="PageSelectorNum" style="cursor: hand;" onClick="">2</span>
+					
+					                <span class="PageSelectorNum" style="cursor: hand;" onClick="">3</span>
+					
+					                <span class="PageSelectorNum" style="cursor: hand;" onClick="">4</span>
+					
+					                <span class="PageSelectorNum" style="cursor: hand;" onClick="">5</span>
+					
+					                <span class="PageSelectorNum" style="cursor: hand;" onClick="">6</span>
+					
+					                <span class="PageSelectorNum" style="cursor: hand;" onClick="">7</span>
+					
+					                <span class="PageSelectorNum" style="cursor: hand;" onClick="">8</span>
+					
+					                <span class="PageSelectorNum" style="cursor: hand;" onClick="">9</span>
+					
+					                <span class="PageSelectorNum" style="cursor: hand;" onClick="">10</span>
+					
+					        <a href="javascript: gotoPage(33)" title="尾页" style="cursor: hand;">
+					            <img src="../images/pageselect/lastPage.png" />
+					        </a>
+					
+					      <!--  转到：
+					        <select onchange="gotoPage(this.value)" id="_pn" class="PageSel">
+					            
+					                <option value="1">1</option>
+					                <option value="2">2</option>
+					                <option value="3">3</option>
+					                <option value="4">4</option>
+					                <option value="5">5</option>
+					                <option value="6">6</option>
+					                <option value="7">7</option>
+					                <option value="8">8</option>
+					                <option value="9">9</option>
+					                <option value="10">10</option>
+					                <option value="11">11</option>
+					                <option value="12">12</option>
+					                <option value="13">13</option>
+					                <option value="14">14</option>
+					                <option value="15">15</option>
+					                <option value="16">16</option>
+					                <option value="17">17</option>
+					                <option value="18">18</option>           
+					            
+					        </select>-->
+					        <script type="text/javascript">
+					            $("#_pn").val("1");
+					        </script>
+					
+					    </div>
+					</div>
+
+
+
+				<script type="text/javascript">
+				    function gotoPage(pageNum) {
+				
+				        $(document.forms[0]).append("<input type='hidden' name='pageNum' value='" + pageNum + "'>");
+				        document.forms[0].submit();
+				    }
+				</script>
+         </ul>
+
+    </div>
+                <script type="text/javascript">
+                    jQuery(".common_table").slide({effect: "top", trigger: "click"});
+                </script>	
+</div>
+
+        
+<div class="clear"></div>
+<div class="container" align="center" style="background-color: ; width: 1190px; height: 100px;">
+					<a href="#" style="color: black;">关于我们</a>
+					
+					<a href="#" style="color: black;">法律声明 </a>
+					<a href="#" style="color: black;">友情链接</a>
+					<span>
+						<font color="black">copyright@2018-2019 版权所有</font>
+						<font color="black">郑州大学--by河南农村队列研究</font>
+					</span>
+					
+		</div>
+    </body>
+</html>

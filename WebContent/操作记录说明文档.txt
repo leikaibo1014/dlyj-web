@@ -1,0 +1,15 @@
+(1) txt中存放的是前端页面要读取的数据.news.txt中存放的是新闻标题，从第一行开始，每一行都是一个标题，在页面中也是从上到下排序
+	newsDetail文件夹中存放的是新闻标题对应的新闻的主要内容。
+	命名规则如下：news_X.txt   其中X是填写的数字，具体填写什么数字就要看 上面news.txt文件新闻标题中对应的是第几行。例如news.txt中第2行新闻标题
+				则对应新闻详情文件命名为  news_2.txt  依次类推
+
+(2) adminuUploadImagesServlet.java   这一个servlet中获取上传图片的路径， String basePath = this.getServletContext().getRealPath("/uploadImages/shouye");
+	来获取路径的，而这句代码返回的路径是tomcat中webapps目录下的工程路径，图片就直接保存到了tomcat中。
+	当我们重新发布工程的时候，tomcat其实是先将原来的工程删掉，然后再将改动过的新的工程放上去。而改动过的新的工程师来自与我们eclipse的工作空间中的工程
+	所以上传图片后，如果在eclipse中重新发布项目，这个时候我们上次上传的图片就会消失不见
+	可以使用  String basepath =  "E:\\CodeSpace\\EcipseCode\\dlyj\\WebContent\\uploadImages\\shouye";  来直接上传到项目中，重新发布项目后就会同步到tomcat中webapps目录下
+	但是这样，等到发布到Linux服务器之后，需要把此处改过来，因为在服务器上是无法找到E:\\CodeSpace\\EcipseCode
+	在正式发布之前，需要把  String basePath =  "E:\\CodeSpace\\EcipseCode\\dlyj\\WebContent\\uploadImages\\shouye";  
+				 改为 String basePath = this.getServletContext().getRealPath("/uploadImages/shouye");
+
+(3)				 

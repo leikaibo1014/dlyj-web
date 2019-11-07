@@ -1,0 +1,90 @@
+body{margin:0;padding:0; background: url("../images/kw1.jpg")/*tpa=https://www.kscdc.net/CKBweb/style/images/kw1.jpg*/ repeat-y;}
+*{ margin:0; padding:0; border:0; outline:0;}
+#login_bg{background: url("../images/kw.jpg")/*tpa=https://www.kscdc.net/CKBweb/style/images/kw.jpg*/ no-repeat;width:1000px;height:696px; margin:25px auto;}
+.login_foot{width:1000px;margin:2px auto;text-align:center;font-size:11px;padding:10px;}
+input{
+		transition:all 0.30s ease-in-out;
+		-webkit-transition: all 0.30s ease-in-out;
+		-moz-transition: all 0.30s ease-in-out;
+	
+		border:#353535 1px solid;
+		border-radius:3px;
+		outline:none;
+		}
+input:focus{
+		box-shadow:0 0 1px rgba(245, 5, 47, 1);
+		-webkit-box-shadow:0 0 1px rgba(245, 5, 47, 1);
+		-moz-box-shadow:0 0 1px rgba(245, 5, 47, 1);
+		color:#353535;
+		}
+label.form-label {
+    display: block;
+    float: none;
+    height: auto;
+    line-height: 12px;
+    text-align: left;
+    width: auto;
+	font-size:14px;
+	color:#fff;
+	font-weight:bold;
+	text-shadow:1px 1px 1px #4e6877;
+	-o-text-shadow:1px 1px 1px #4e6877;
+	-o-moz-shadow:1px 1px 1px #4e6877;
+	-o-mis-shadow:1px 1px 1px #4e6877;
+	-o-webkit-shadow:1px 1px 1px #4e6877;
+	margin-top:8px;
+	margin-bottom:8px;
+}
+
+.login-aside {
+    position: absolute;
+    width: 320px;
+    height: 380px;
+    z-index: 9999999;
+    border-radius: 5px;
+    left: 58%;
+    top: 130px;
+	}
+#o-box-up,#o-box-down {
+    width:320px;
+    height:460px;
+    position:absolute;
+	border-radius:5px;
+
+}
+#o-box-up {
+    background-color:#000;
+    opacity:0.2;
+}
+
+#o-box-down{ padding: 44px 0px 0px 39px;}
+.i-text{ 
+  width:240px;
+  height:34px;
+  line-height:37px;
+  border:1px solid #858585;
+  background:#eef3f8;
+  color:#9cb5cd;
+  font-size:14px; 
+  text-indent:12px; 
+  box-shadow:1px 1px 1px #dfe4e8 inset;
+  -moz-box-shadow:1px 1px 1px #dfe4e8 inset;
+  -webkit-box-shadow:1px 1px 1px #dfe4e8 inset;
+  -o-box-shadow:1px 1px 1px #dfe4e8 inset;
+  -mis-box-shadow:1px 1px 1px #dfe4e8 inset;
+ }
+.btn-login{ width:240px; height:34px; background:#e66e1e; border:none; margin-top:20px; font-size:16px; line-height:27px;text-shadow:1px 1px 0px rgba(0,0,0,0.2); font-wight:700;color:#fff;}
+
+.h-light{
+  border:1px solid #80acd9;
+  background:#fff;
+  color:#9cb5cd;
+  font-size:14px; 
+  text-indent:12px; 
+  border-color: #0787be;
+  box-shadow: 0 1px 4px rgba(11, 122, 179, 0.65) inset, 0 0 14px rgba(11, 122, 179, 0.45);
+
+}
+.radio{height: 30px;line-height: 50px;}
+.radio input{border: 0;margin:0;padding:0}
+.error{height: 12px;line-height: 33px;margin-left: 2px;list-style: none;}

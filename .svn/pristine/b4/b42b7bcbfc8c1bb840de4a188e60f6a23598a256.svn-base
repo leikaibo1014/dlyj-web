@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+  <display-name>dlyj</display-name>
+  <welcome-file-list>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>teacherProduce</display-name>
+    <servlet-name>teacherProduce</servlet-name>
+    <servlet-class>com.dlyj.web.teacherProduceServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>teacherProduce</servlet-name>
+    <url-pattern>/teacherProduce</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>readerNewsServlet</display-name>
+    <servlet-name>readerNewsServlet</servlet-name>
+    <servlet-class>com.dlyj.web.readerNewsServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>readerNewsServlet</servlet-name>
+    <url-pattern>/readerNews</url-pattern>
+  </servlet-mapping>
+</web-app>
